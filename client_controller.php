@@ -1,5 +1,5 @@
 <!-- Database connection -->
-<?php include('./config/connectDB.php') ?>
+<?php include('connectDB.php') ?>
 <!-- GET -->
 <?php 
     $sql = 'SELECT * FROM clients';

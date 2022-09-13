@@ -1,5 +1,5 @@
 <!-- CONNECT DATABASE -->
-<?php include('./config/connectDB.php') ?>
+<?php include('connectDB.php') ?>
 <!-- GET CLIENT INFO BY ID -->
 <?php
     if(isset($_GET['id'])){
@@ -147,7 +147,7 @@
                         </button>
                 </div>
                 <div class="col-sm-3 d-grid mb-3">
-                    <a href="/PHP-my_shop/index.php" class="btn btn-outline-primary">Cancel</a>
+                    <a href="index.php" class="btn btn-outline-primary">Cancel</a>
                 </div>
             </div>
         </form>

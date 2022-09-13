@@ -1,4 +1,4 @@
-<?php include('./controller/client_controller.php') ?>
+<?php include('client_controller.php') ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -16,5 +16,4 @@
         <a href="index.php" class="navbar-brand fw-bold">My Shop</a>           
     </div>
 </nav>
-    <!-- <span style="color: lime; margin-left: 5rem" class="lead"><?php echo 'Database Connected!'?></span>  -->
-
+  

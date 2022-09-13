@@ -1,5 +1,5 @@
 <!-- CONNECT DATABASE -->
-<?php include('./config/connectDB.php') ?>
+<?php include('connectDB.php') ?>
 <!-- DELETE -->
 <?php
     $id = $_GET['id'];
