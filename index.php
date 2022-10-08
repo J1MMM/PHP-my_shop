@@ -2,7 +2,7 @@
 
     <div class="container">
         <h2>List of Clients</h2>
-        <a href="/02-PHP_CRUD/create.php" class="btn btn-primary btn-md mt-3" role="button">New Client</a>
+        <a href="./create.php" class="btn btn-primary btn-md mt-3" role="button">New Client</a>
         
         <table class="table mt-3">
             <thead>
