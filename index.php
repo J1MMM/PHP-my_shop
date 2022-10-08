@@ -25,8 +25,8 @@
                     <td><?php echo $data['address'] ?></td>
                     <td><?php echo $data['date'] ?></td>
                     <td>
-                        <a href="/02-PHP_CRUD/update.php?id=<?php echo $data['id']?>" class="btn btn-primary btn-sm">Edit</a>
-                        <a href="/02-PHP_CRUD/delete.php?id=<?php echo $data['id']?>" class="btn btn-danger btn-sm">Delete</a>
+                        <a href="./update.php?id=<?php echo $data['id']?>" class="btn btn-primary btn-sm">Edit</a>
+                        <a href="./delete.php?id=<?php echo $data['id']?>" class="btn btn-danger btn-sm">Delete</a>
                     </td>
                 </tr>
             <?php endforeach ?>
